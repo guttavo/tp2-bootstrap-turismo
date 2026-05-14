@@ -1,0 +1,27 @@
+.hero {
+  height: 90vh;
+
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("img/fondo.jpg");
+
+  background-size: cover;
+  background-position: center;
+}
+
+.hero h1,
+.hero p {
+  text-shadow: 2px 2px 8px black;
+}
+.card img {
+  height: 220px;
+  object-fit: cover;
+}
+
+.card {
+  transition: 0.4s;
+}
+
+.card:hover {
+  transform: scale(1.03);
+}
